@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/favicon-192.be55a575.png" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-512.58d6d88c.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Properties</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <nav
+      class="bg-white border-b border-b-black py-5 sticky top-0 left-0 z-40 opacity-95"
+    >
+      <div class="container text-center md:flex md:justify-between mx-auto">
+        <a href="./" class="nav__logo flex items-center justify-center my-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-6 h-6 mr-2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+            />
+          </svg>
+          <span class="logo__name text-xl font-bold">Premium Properties</span>
+        </a>
+        <ul
+          class="nav__list flex-wrap items-center flex md:justify-end justify-center my-2"
+        >
+          <li>
+            <a
+              href="#services"
+              class="uppercase p-2 transition-all hover:border-b-2 hover:border-green-500 hover:text-green-500 font-bold"
+              >services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#location"
+              class="uppercase p-2 transition-all hover:border-b-2 hover:border-green-500 hover:text-green-500 font-bold"
+              >location</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="p-2 transition-all hover:border-b-2 hover:border-green-500 uppercase hover:text-green-500 font-bold"
+              >about</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="uppercase p-2 transition-all hover:border-b-2 hover:border-green-500 hover:text-green-500 font-bold"
+              >contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <header id="properties" class="bg-green-200 py-5">
+        <div class="w-2/3 py-5 mx-auto">
+          <h1 class="header__main text-center">
+            <span
+              class="header__main-first block text-black text-3xl sm:text-4xl md:text-6xl font-bold my-2"
+              >Premium Properties</span
+            >
+            <span
+              class="header__main-second block text-green-700 text-3xl sm:text-4xl md:text-6xl font-bold my-2"
+              >Non-Premium Prices</span
+            >
+          </h1>
+          <p
+            class="header__text my-3 text-gray-500 font-semibold text-xl md:text-2xl text-center"
+          >
+            At prime properties, we ensure that our clients get the best
+            properties at affordable prices. Luxury is our priority and budget
+            is our constrain. Pick and choose from 1000+ properties a cross the
+            globe.
+          </p>
+          <div class="header__buttons my-7 text-center mx-auto">
+            <button
+              type="button"
+              class="md:px-4 px-2 md:py-3 py-2 text-white bg-green-600 text-xl md:text-lg hover:bg-green-800 rounded md:mx-2 my-2"
+            >
+              <a href="#services"> View Properties </a>
+            </button>
+            <button
+              type="button"
+              class="md:px-4 px-2 md:py-3 py-2 text-black text-xl md:text-lg bg-green-400 hover:bg-green-500 rounded md:mx-2 my-2"
+            >
+              <a href="#location"> Explore Locations </a>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <section id="services" class="services py-5">
+        <div class="container mx-auto">
+          <h3 class="section-header">Recent Properties</h3>
+
+          <div
+            class="cards services__cards justify-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 my-5"
+          >
+            <!-- ================== -->
+            <div class="card services__card">
+              <img
+                class="w-full object-cover rounded-t"
+                src="./images/services1.jpg"
+                alt="villa"
+              />
+              <div class="card-body services__card-body mx-auto px-3 sm:px-5">
+                <h4 class="card-title services__card-title">Orchid Villa</h4>
+                <p
+                  class="card-text services__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  located in the suburbs of california, orchid villa offers
+                  luxury with modern touch. Equipped with green lighting and a
+                  rainwater harvesting system, this property is eco-friendly.
+                </p>
+                <div class="card-price services__card-price py-3 my-2">
+                  <span class="card-price__span services__card-price__span"
+                    >$ 450,000</span
+                  >
+                </div>
+                <div class="card-desc services__card-desc py-3 my-2">
+                  <span
+                    class="bg-gray-300 text-black py-1 px-2 rounded-2xl sm:me-3"
+                    >7 beds</span
+                  >
+                  <span class="bg-gray-300 text-black py-1 px-2 rounded-2xl"
+                    >7 bath</span
+                  >
+                </div>
+                <button
+                  type="button"
+                  class="md:px-4 px-2 md:py-3 py-2 text-white bg-green-600 text-xl md:text-lg hover:bg-green-800 rounded-3xl my-2"
+                >
+                  <a href="#properties"> View Properties </a>
+                </button>
+              </div>
+            </div>
+            <!-- ================== -->
+            <div class="card services__card">
+              <img
+                class="w-full object-cover rounded-t"
+                src="./images/services2.jpg"
+                alt="villa"
+              />
+              <div
+                class="card-body services__card-body mx-autopx-3 px-3 sm:px-5"
+              >
+                <h4 class="card-title services__card-title">577 Gracia</h4>
+                <p
+                  class="card-text services__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  located in the suburbs of california, orchid villa offers
+                  luxury with modern touch. Equipped with green lighting and a
+                  rainwater harvesting system, this property is eco-friendly.
+                </p>
+                <div
+                  class="card-price first-letter:services__card-price py-3 my-2"
+                >
+                  <span class="card-price__span services__card-price__span"
+                    >$ 830,000</span
+                  >
+                </div>
+                <div class="card-desc services__card-desc py-3 my-2">
+                  <span
+                    class="bg-gray-300 text-black py-1 px-2 rounded-2xl sm:me-3"
+                    >10 beds</span
+                  >
+                  <span class="bg-gray-300 text-black py-1 px-2 rounded-2xl"
+                    >8 bath</span
+                  >
+                </div>
+                <button
+                  type="button"
+                  class="md:px-4 px-2 md:py-3 py-2 text-white bg-green-600 text-xl md:text-lg hover:bg-green-800 rounded-3xl my-2"
+                >
+                  <a href="#properties"> View Properties </a>
+                </button>
+              </div>
+            </div>
+            <!-- ================== -->
+            <div class="card services__card">
+              <img
+                class="w-full object-cover rounded-t"
+                src="./images/services3.jpg"
+                alt="villa"
+              />
+              <div class="card-body services__card-body mx-auto px-3 sm:px-5">
+                <h4 class="card-title services__card-title">Nexa Epitome</h4>
+                <div
+                  class="card-text services__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  located in the suburbs of california, orchid villa offers
+                  luxury with modern touch. Equipped with green lighting and a
+                  rainwater harvesting system, this property is eco-friendly.
+                </div>
+                <div class="card-price services__card-price py-3 my-2">
+                  <span class="card-price__span services__card-price__span"
+                    >$ 999,000</span
+                  >
+                </div>
+                <div class="card-desc services__card-desc py-3 my-2">
+                  <span
+                    class="bg-gray-300 text-black py-1 px-2 rounded-2xl sm:me-3"
+                    >12 beds</span
+                  >
+                  <span class="bg-gray-300 text-black py-1 px-2 rounded-2xl"
+                    >10 bath</span
+                  >
+                </div>
+                <button
+                  type="button"
+                  class="md:px-4 px-2 md:py-3 py-2 text-white bg-green-600 text-xl md:text-lg hover:bg-green-800 rounded-3xl my-2"
+                >
+                  <a href="#properties"> View Properties </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience py-40">
+        <div class="container mx-auto">
+          <h2 class="uppercase text-white my-3 md:text-4xl text-2xl font-bold">
+            Experience Luxury Like Never Before
+          </h2>
+          <h3 class="text-white md:text-3xl text-2xl my-3">
+            50+ Exotic locations across the globe.
+          </h3>
+          <button
+            type="button"
+            class="transition-all md:px-4 px-2 md:py-3 py-2 text-white text-xl md:text-lg bg-transparent border-2 fw-bold border-white hover:text-gray-500 hover:bg-white rounded md:mx-2 my-2"
+          >
+            <a href="#location"> Explore Locations </a>
+          </button>
+        </div>
+      </section>
+
+      <section id="location" class="location py-5">
+        <div class="container mx-auto">
+          <h3 class="section-header">locations</h3>
+
+          <div
+            class="cards location__cards justify-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 my-5"
+          >
+            <!-- ================== -->
+            <div class="card location__card">
+              <img
+                class="w-full object-cover rounded-t"
+                src="./images/newyork.cb4f7a7a.jpg"
+                alt="villa"
+              />
+              <div class="card-body locaion__card-body mx-auto px-3 sm:px-5">
+                <h4 class="card-title location__card-title">New York</h4>
+                <p
+                  class="card-text location__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam dicta assumenda architecto sunt nisi consequatur quo,
+                  ipsum autem maiores velit minus! Accusantium esse suscipit
+                  illum sint cumque alias excepturi eaque dolore perferendis
+                  necessitatibus ad, numquam veniam quas labore et quisquam ut
+                  aliquid nesciunt dolor perspiciatis.
+                </p>
+              </div>
+            </div>
+            <!-- ================== -->
+            <div class="card location__card">
+              <img
+                class="w-full object-cover rounded-t"
+                src="./images/california.9976a9bc.jpg"
+                alt="villa"
+              />
+              <div
+                class="card-body location__card-body mx-autopx-3 px-3 sm:px-5"
+              >
+                <h4 class="card-title locations__card-title">California</h4>
+                <p
+                  class="card-text location__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam dicta assumenda architecto sunt nisi consequatur quo,
+                  ipsum autem maiores velit minus! Accusantium esse suscipit
+                  illum sint cumque alias excepturi eaque dolore perferendis
+                  necessitatibus ad, numquam veniam quas labore et quisquam ut
+                  aliquid nesciunt dolor perspiciatis.
+                </p>
+              </div>
+            </div>
+            <!-- ================== -->
+            <div class="card location__card">
+              <img
+                class="w-full object-cover rounded-t"
+                src="./images/chicago.fb95c500.jpg"
+                alt="villa"
+              />
+              <div class="card-body location__card-body mx-auto px-3 sm:px-5">
+                <h4 class="card-title location__card-title">Chicago</h4>
+                <div
+                  class="card-text location__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam dicta assumenda architecto sunt nisi consequatur quo,
+                  ipsum autem maiores velit minus! Accusantium esse suscipit
+                  illum sint cumque alias excepturi eaque dolore perferendis
+                  necessitatibus ad, numquam veniam quas labore et quisquam ut
+                  aliquid nesciunt dolor perspiciatis.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="commisions bg-gradient-to-r from-green-600 to-green-200 py-20"
+      >
+        <div class="container mx-auto">
+          <h2 class="uppercase text-white my-3 md:text-4xl text-2xl font-bold">
+            Save upto 50% on broker commisions
+          </h2>
+          <h3 class="text-white md:text-3xl text-2xl my-3">
+            Lowest brokerage fees
+          </h3>
+          <button
+            type="button"
+            class="transition-all md:px-4 px-2 md:py-3 py-2 text-white text-xl md:text-lg bg-transparent border-2 fw-bold border-white hover:text-gray-500 hover:bg-white rounded md:mx-2 my-2"
+          >
+            <a href="#location"> Explore Locations </a>
+          </button>
+        </div>
+      </section>
+
+      <section id="about" class="about py-5">
+        <div class="container mx-auto">
+          <h3 class="section-header">What Clients Say About Us ?</h3>
+
+          <div
+            class="cards about__cards justify-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 my-5"
+          >
+            <!-- ================== -->
+            <div class="card about__card">
+              <div class="card-body locaion__card-body mx-auto px-3 sm:px-5">
+                <p
+                  class="card-text about__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  <span class="text-green-600 font-extrabold text-xl">"</span
+                  >this is one of the best property websites i have ever used.
+                  kudos to prime properties and the team<span
+                    class="text-green-600 font-extrabold text-xl"
+                    >"</span
+                  >
+                </p>
+                <div class="about__persons rounded-full my-3 bg-green-200 flex">
+                  <img
+                    src="./images/avatar.2b02b755.png"
+                    class="rounded-full"
+                    alt="avatar"
+                  />
+                  <div class="about__text">
+                    <h6 class="about__name capitalize font-bold text-green-600">
+                      Ashutosh
+                    </h6>
+                    <h6 class="about__name capitalize">director</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ================== -->
+            <div class="card about__card">
+              <div class="card-body locaion__card-body mx-auto px-3 sm:px-5">
+                <p
+                  class="card-text about__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  <span class="text-green-600 font-extrabold text-xl">"</span
+                  >this is one of the best property websites i have ever used.
+                  kudos to prime properties and the team<span
+                    class="text-green-600 font-extrabold text-xl"
+                    >"</span
+                  >
+                </p>
+                <div class="about__persons rounded-full my-3 bg-green-200 flex">
+                  <img
+                    src="./images/avatar.2b02b755.png"
+                    class="rounded-full"
+                    alt="avatar"
+                  />
+                  <div class="about__text">
+                    <h6 class="about__name capitalize font-bold text-green-600">
+                      Ashutosh
+                    </h6>
+                    <h6 class="about__name capitalize">director</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ================== -->
+            <div class="card about__card">
+              <div class="card-body locaion__card-body mx-auto px-3 sm:px-5">
+                <p
+                  class="card-text about__card-text text-gray-600 font-semibold py-3 my-2"
+                >
+                  <span class="text-green-600 font-extrabold text-xl">"</span
+                  >this is one of the best property websites i have ever used.
+                  kudos to prime properties and the team<span
+                    class="text-green-600 font-extrabold text-xl"
+                    >"</span
+                  >
+                </p>
+                <div class="about__persons rounded-full my-3 bg-green-200 flex">
+                  <img
+                    src="./images/avatar.2b02b755.png"
+                    class="rounded-full"
+                    alt="avatar"
+                  />
+                  <div class="about__text">
+                    <h6 class="about__name capitalize font-bold text-green-600">
+                      Ashutosh
+                    </h6>
+                    <h6 class="about__name capitalize">director</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="bg-slate-950 py-5">
+      <div class="container px-4 mx-auto">
+        <div
+          class="footer__lists grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 border-b border-gray-100 py-7"
+        >
+          <div class="product">
+            <h5 class="uppercase my-2 text-green-500 font-extrabold text-xl">
+              product
+            </h5>
+            <ul>
+              <li class="text-white capitalize font-bold text-lg">Features</li>
+              <li class="text-white capitalize font-bold text-lg">
+                Integrations
+              </li>
+              <li class="text-white capitalize font-bold text-lg">pricing</li>
+              <li class="text-white font-bold text-lg">FAQ</li>
+            </ul>
+          </div>
+
+          <div class="company">
+            <h5 class="uppercase my-2 text-green-500 font-extrabold text-xl">
+              company
+            </h5>
+            <ul>
+              <li class="text-white capitalize font-bold text-lg">Privacy</li>
+              <li class="text-white capitalize font-bold text-lg">
+                Team Of Service
+              </li>
+              =
+            </ul>
+          </div>
+
+          <div class="developers">
+            <h5 class="uppercase my-2 text-green-500 font-extrabold text-xl">
+              developers
+            </h5>
+            <ul>
+              <li class="text-white capitalize font-bold text-lg">
+                Public API
+              </li>
+              <li class="text-white capitalize font-bold text-lg">
+                Documentation
+              </li>
+              <li class="text-white capitalize font-bold text-lg">Guides</li>
+            </ul>
+          </div>
+
+          <div class="social-media">
+            <h5 class="uppercase my-2 text-green-500 font-extrabold text-xl">
+              social media
+            </h5>
+            <ul class="flex justify-start">
+              <li class="text-white capitalize font-bold text-lg me-2">
+                <i
+                  class="fa-brands fa-facebook text-white hover:text-green-600"
+                ></i>
+              </li>
+              <li class="text-white capitalize font-bold text-lg mx-2">
+                <i
+                  class="fa-brands fa-square-x-twitter text-white hover:text-green-600"
+                ></i>
+              </li>
+              <li class="text-white capitalize font-bold text-lg ms-2">
+                <i
+                  class="fa-brands fa-square-instagram text-white hover:text-green-600"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <p class="text-white font-semibold my-5 text-center">
+            Copyright &copy; 2023 by
+            <span class="text-green-500 font-bold">Basel Diab</span> , All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

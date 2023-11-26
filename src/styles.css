@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-header {
+  @apply my-2 py-3 text-center text-gray-600 text-3xl font-extrabold;
+}
+.card {
+  @apply my-3 shadow-lg hover:shadow-2xl rounded;
+}
+.card-price__span {
+  @apply border-dashed border-4 rounded-md font-bold border-green-600 px-2 py-1 text-green-600;
+}
+
+.card-title {
+  @apply font-extrabold tracking-wide text-xl capitalize my-4;
+}
+.experience {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/experience-bg.jpg") no-repeat center / cover;
+}
