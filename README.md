@@ -6,10 +6,10 @@
 
 ### 👁️ Project Preview:
 
-- [ Live Preview 👉 https://amrsaadabdallah.github.io/prime-properties](https://amrsaadabdallah.github.io/prime-properties)
+- [ Live Preview 👉 https://prime-properties-peach.vercel.app/](https://prime-properties-peach.vercel.app/)
 
-- [ Github Repo 👉 https://github.com/amrsaadabdallah/my-prime-properties](https://github.com/amrsaadabdallah/my-prime-properties)
-  - 🚩 It's a private repo <a target="_blank" href="mailto:amrsaadabdallah@gmail.com">contact me </a>to see.
+- [ Github Repo 👉 https://github.com/Baseldiab/prime-properties](https://github.com/Baseldiab/prime-properties)
+  - 🚩 It's a private repo <a target="_blank" href="mailto:baseldiab21@gmail.com">contact me </a>to see.
 
 ---
 
@@ -26,10 +26,6 @@
 
 1. TailwindCSS Framework for styling.
 
-1. ParcelJS a Bundler Tool.
-
-1. [Squoosh](https://squoosh.app/) is an online tool for image compression web app that reduces image sizes through numerous formats.
-
 1. [GTmetrix](https://gtmetrix.com/) is an online tool for customers to easily test the performance of their webpages.
 
 ---
@@ -42,23 +38,7 @@
 
 1. Applied mibile first technique to create a responsive web app.
 
-1. Handle smooth scrolling with JavaScript.
-
-1. Update Current year with JavaScript.
-
-1. Bundle project by using Parceljs.
-
-1. Compression images using Squoosh tool.
-
 1. Test the performance of the webpage after deploy by using [GTmetrix](https://gtmetrix.com/).
-
----
-
-### 🧪 Project performance test:
-
-Test the performance of the webpage after deploy by using [GTmetrix](https://gtmetrix.com/).
-
-![Project Performane result](./info/prime-properties-performance.png)
 
 ---
 
