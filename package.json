@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build-css": "tailwindcss build ./src/styles.css -o ./public/output.css --watch"
+    "build-css": "tailwindcss build ./src/styles.css -o ./public/output.css --watch",
+    "build": "tailwindcss build ./src/styles.css -o ./public/output.css"
   },
   "name": "new-folder",
   "version": "1.0.0",
